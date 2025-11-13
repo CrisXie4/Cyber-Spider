@@ -331,3 +331,6 @@ app.listen(PORT, () => {
     console.log(`🕷️  Cyber Spider Server running on http://localhost:${PORT}`);
     console.log(`📊 Dashboard: http://localhost:${PORT}`);
 });
+
+// Export for Vercel serverless
+module.exports = app;
